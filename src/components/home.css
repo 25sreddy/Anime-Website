@@ -1,0 +1,15 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.main-container {
+  background-color: #a5a58d;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 51% !important;
+  }
+}
